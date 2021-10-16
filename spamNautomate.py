@@ -1,7 +1,7 @@
 import pyautogui #pip install pyautogui
 from time import sleep
 
-def spamTexts():
+def spamTexts(): #if you want to annoy/prank your friends
     numberOfMessages = int(input('How many messages do you want to send?'))
     theMsg = input('Enter the message you want to send')
     if numberOfMessages > 100:
@@ -14,7 +14,7 @@ def spamTexts():
             pyautogui.typewrite(theMsg)
             pyautogui.press('enter')
 
-def pressSpaceSpam():
+def pressSpaceSpam():#if you want to beat that tiktok challenge :)
     for i in range(3, 0, -1):
         print(i)
         sleep(1)
