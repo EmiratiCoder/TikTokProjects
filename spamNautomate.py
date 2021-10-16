@@ -22,7 +22,7 @@ def pressSpaceSpam():#if you want to beat that tiktok challenge :)
         pyautogui.press('space')
 
 print('Choose something from the menu below:')
-print('1- Spam texts prank\n2-spacebar tiktok challenge')
+print('1- Spam texts prank\n2- spacebar tiktok challenge')
 
 choice =int(input('Enter a selection number: '))
 
