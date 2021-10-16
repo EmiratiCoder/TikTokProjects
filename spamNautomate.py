@@ -14,14 +14,22 @@ def spamTexts():
             pyautogui.typewrite(theMsg)
             pyautogui.press('enter')
 
+def pressSpaceSpam():
+    for i in range(3, 0, -1):
+        print(i)
+        sleep(1)
+    for i in range(100):
+        pyautogui.press('space')
 
 print('Choose something from the menu below:')
-print('1- Spam texts prank\n')
+print('1- Spam texts prank\n2-spacebar tiktok challenge')
 
 choice =int(input('Enter a selection number: '))
 
 if choice == 1:
     spamTexts()
+elif choice==2:
+    pressSpaceSpam()
 else:
     print('invalid choice')
 
