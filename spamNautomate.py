@@ -3,7 +3,7 @@ from time import sleep
 
 def spamTexts():
     numberOfMessages = int(input('How many messages do you want to send?'))
-
+    theMsg = input('Enter the message you want to send')
     if numberOfMessages > 100:
         print('You can not send more than 100 messages')
     else:
@@ -11,8 +11,10 @@ def spamTexts():
             print(i)
             sleep(1)
         for i in range(numberOfMessages):
-            pyautogui.typewrite('Follow EmiratiCoder!!')
+            pyautogui.typewrite(theMsg)
             pyautogui.press('enter')
+
+
 
 print('Choose something from the menu below:')
 print('1- Spam texts prank\n')
