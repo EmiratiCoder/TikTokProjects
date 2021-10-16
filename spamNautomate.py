@@ -1,4 +1,4 @@
-import pyautogui
+import pyautogui #pip install pyautogui
 from time import sleep
 
 def spamTexts():
