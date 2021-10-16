@@ -26,4 +26,4 @@ if choice == 1:
 else:
     print('invalid choice')
 
-print('© ALL RIGHTS RESERVED TO @EmiratiCoder')
+print('©ALL RIGHTS RESERVED TO @EmiratiCoder')
