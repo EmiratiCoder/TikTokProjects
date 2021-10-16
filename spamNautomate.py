@@ -14,4 +14,13 @@ def spamTexts():
             pyautogui.typewrite('Follow EmiratiCoder!!')
             pyautogui.press('enter')
 
-spamTexts()
+print('Choose something from the menu below:')
+print('1- Spam texts prank\n')
+
+choice =int(input('Enter a selection number: '))
+
+if choice == 1:
+    spamTexts()
+else:
+    print('invalid choice')
+
