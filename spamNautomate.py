@@ -15,7 +15,6 @@ def spamTexts():
             pyautogui.press('enter')
 
 
-
 print('Choose something from the menu below:')
 print('1- Spam texts prank\n')
 
